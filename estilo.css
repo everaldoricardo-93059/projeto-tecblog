@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x:  hidden;
+}
+
+main.tecblog {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: rgb(240, 234, 234);
+}
+
+header.menu-superior {
+    background-color: #FFC300;
+    height: 120px;
+    text-align: center;
+}
+
+header.menu-superior h1 {
+    font-size: 2.5em;
+    margin: 15px 0px;
+    padding: 5px;
+}
+
+header.menu-superior span {
+    color: white;
+}
+
+header.menu-superior > a {
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-right: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+header.menu-superior a:hover {
+    background-color: rgb(226, 220, 220);
+    color: #FFC300;
+    border-radius: 3px;
+}
+section.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+
+section.conteudo a:hover {
+    background-color: rgb(226, 220, 220);
+    border-radius: 3px;
+}
+
+div.imagens {
+    text-align: justify;
+}
+
+div.imagens  p,a {
+    font-size: 0.8em;
+    width: 640px;
+}
+
+div.imagens h3,a,li {
+    color: #FFC300;
+    text-decoration: none;
+    text-align: justify;
+    padding: 1.5px;
+}    
+    
+
+div#imagem1 {
+    margin: 20px 10px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div#imagem1 img {
+    margin-top: 15px;
+}
+
+div#imagem2 img {
+    margin-top: 15px;
+}
+
+div#imagem2 {
+    margin: 20px 10px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div.menu-lateral {
+   width: 300px;
+}
+
+div.menu-lateral p {
+    width: 200px;
+    font-size: 0.8em;
+    
+}
+
+div.menu-lateral  h3 {
+    background-color: rgb(180, 174, 174);
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+div#first-menu {
+    margin: 20px 10px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+div#second-menu {
+    margin: 20px 10px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+div#second-menu li,a {
+    list-style-type: none;
+}
+
+#one {
+    margin: 3px 0px;
+}
+
+footer#rodape {
+    background-color: gray;
+    color: #FFC300;
+    text-align: center;
+    font-weight: bold;
+    padding: 6px;
+}
